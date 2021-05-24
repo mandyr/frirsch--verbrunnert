@@ -1,0 +1,21 @@
+@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.5em;
+  width: calc(100vw - 10px);
+  height: calc(100vh - 10px);
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}

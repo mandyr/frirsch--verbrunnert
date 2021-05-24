@@ -1,0 +1,25 @@
+.navBar li {
+    list-style:none;
+    padding: 4px;
+    display:inline-block;
+}
+
+.navBar .navBarButton {
+    background: #66c1a0;
+    color: #402169;
+    height: 50px;
+    text-decoration: underline;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.5em;
+}
+
+.navBar .navBarButton:hover {
+    background-color: #402169;
+    color:#66c1a0;
+    height: 52px;
+    text-decoration: underline;
+}
+
+.navBar .navBarButton:focus {
+    border-style: inset;
+}
