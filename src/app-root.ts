@@ -1,4 +1,5 @@
-import { customElement, property, LitElement, html, css } from 'lit-element';
+import { html, css, LitElement } from 'lit-element';
+import { customElement, property } from 'lit/decorators.js';
 
 @customElement('app-root')
 export class AppRoot extends LitElement {
@@ -15,12 +16,7 @@ export class AppRoot extends LitElement {
         align-items: center;
         flex-direction: column;
         height: 100vh;
-        background-color: #2196f3;
-        background: linear-gradient(315deg, #b4d2ea 0%, #2196f3 100%);
         font-size: 24px;
-      }
-      .link {
-        color: white;
       }
     `;
   }
@@ -28,16 +24,8 @@ export class AppRoot extends LitElement {
   render() {
     return html`
       <div class="wrapper">
-        <h1>LitElement + Snowpack</h1>
-        <p>Edit <code>src/app-root.ts</code> and save to reload.</p>
-        <a
-          class="link"
-          href="https://lit-element.polymer-project.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ${this.message}
-        </a>
+        <h1>Frisch verbrunnert</h1>
+       
       </div>
     `;
   }
