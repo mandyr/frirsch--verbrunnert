@@ -1,4 +1,9 @@
-@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+@font-face {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Comic Sans MS'), url('comic-sans.woff') format('woff');
+}
 
 body {
   margin: 0;
