@@ -5,6 +5,7 @@ import { Gaestebuch } from './contentViewer/Gaestebuch';
 import { Video } from './contentViewer/Video';
 import { Home } from './contentViewer/Home';
 import { PopupContainer } from './popUps/PopUpContainer';
+import { SideBar } from './sidebar/Sidebar';
 
 function App() {
   const pages = ['Home', 'Video', 'Gästebuch'];
@@ -28,11 +29,14 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <NavBar items={pages} navigateToPage={navigateToPage}></NavBar>
-      <Viewer>{renderCurrentPage()}</Viewer>
-      <PopupContainer />
-    </div>
+      <div className="App">
+        <div className="mainContent">
+          <NavBar items={pages} navigateToPage={navigateToPage}></NavBar>
+          <Viewer>{renderCurrentPage()}</Viewer>
+        </div>
+        <SideBar />
+        <PopupContainer />
+      </div>
   );
 }
 
