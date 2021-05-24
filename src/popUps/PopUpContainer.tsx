@@ -7,8 +7,8 @@ import { PopUpWindow } from './PopUpWindow';
 export function PopupContainer(props: any) {
   const [renderedPopUps, setRenderedPopups] = useState(listOfPopUps);
 
-  function closePopUp(indexToBeRemoved: number) {
-    const newRenderedPopUps = renderedPopUps.slice(indexToBeRemoved - 1, 0);
+  function closePopUp(idToBeRemoved: string) {
+    const newRenderedPopUps = renderedPopUps.filter(popUp=>popUp.id !== idToBeRemoved);
     setRenderedPopups(newRenderedPopUps);
   }
 
@@ -23,7 +23,7 @@ export function PopupContainer(props: any) {
             width={popUpWindow.width}
             top={popUpWindow.top}
             left={popUpWindow.left}
-            closePopUp={() => closePopUp(index)}
+            closePopUp={() => closePopUp(popUpWindow.id)}
             key={`popUp-${popUpWindow.id}-${index}`}
           />
         );
