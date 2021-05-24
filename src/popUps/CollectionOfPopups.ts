@@ -1,4 +1,5 @@
 import Singles from './singles.jpg';
+import PoliceStripper from './PoliceStripper.png'
 
 export interface PopUp {
   image: string;
@@ -18,4 +19,12 @@ export const listOfPopUps: PopUp[] = [
     top: 200,
     left: 500,
   },
+  {
+    image: PoliceStripper,
+    id: 'policeStripers',
+    height: 600,
+    width: 800,
+    top: 200,
+    left: 500,
+  }
 ];
