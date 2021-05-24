@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "lit-element": "./lit-element.js",
+    "lit/decorators.js": "./lit/decorators.js"
+  }
+}
