@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frisch-verbrunnert/static/css/main.1ddaacbf.chunk.css",
+    "main.css": "/frisch-verbrunnert/static/css/main.e9be06fa.chunk.css",
     "main.js": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js",
     "main.js.map": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js.map",
     "runtime-main.js": "/frisch-verbrunnert/static/js/runtime-main.a3510636.js",
@@ -10,7 +10,7 @@
     "static/js/2.4e7ca485.chunk.js.map": "/frisch-verbrunnert/static/js/2.4e7ca485.chunk.js.map",
     "index.html": "/frisch-verbrunnert/index.html",
     "static/css/2.6b2b7fe9.chunk.css.map": "/frisch-verbrunnert/static/css/2.6b2b7fe9.chunk.css.map",
-    "static/css/main.1ddaacbf.chunk.css.map": "/frisch-verbrunnert/static/css/main.1ddaacbf.chunk.css.map",
+    "static/css/main.e9be06fa.chunk.css.map": "/frisch-verbrunnert/static/css/main.e9be06fa.chunk.css.map",
     "static/js/2.4e7ca485.chunk.js.LICENSE.txt": "/frisch-verbrunnert/static/js/2.4e7ca485.chunk.js.LICENSE.txt",
     "static/media/3Fragen.03f9ff89.png": "/frisch-verbrunnert/static/media/3Fragen.03f9ff89.png",
     "static/media/XP.css": "/frisch-verbrunnert/static/media/ms_sans_serif_bold.9fbe7124.woff",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.a3510636.js",
     "static/css/2.6b2b7fe9.chunk.css",
     "static/js/2.4e7ca485.chunk.js",
-    "static/css/main.1ddaacbf.chunk.css",
+    "static/css/main.e9be06fa.chunk.css",
     "static/js/main.ee2ebb1c.chunk.js"
   ]
 }
