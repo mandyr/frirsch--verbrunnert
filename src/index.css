@@ -24,6 +24,8 @@ body {
   flex-direction: row;
   box-sizing: border-box;
   flex-wrap: wrap;
+  background-image: url("./popUps/twinkle.gif");
+  background-repeat: repeat-x;
 }
 
 .mainContent {

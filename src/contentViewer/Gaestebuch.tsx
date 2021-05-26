@@ -1,4 +1,4 @@
-import { px } from '../popUps/PopUpWindow';
+import travolta from '../popUps/travolta.gif';
 
 export function Gaestebuch(props: any) {
   return (
@@ -8,15 +8,7 @@ export function Gaestebuch(props: any) {
         overflow: 'scroll',
       }}
     >
-      <iframe
-        width={px(1500)}
-        height="100%"
-        frameBorder="0"
-        src="http://50643.my-gaestebuch.de"
-        title="Gästebuch"
-        scrolling="auto"
-        allowTransparency={true}
-      ></iframe>
+      <img style={{ width: "100%" }}src={travolta} alt="wo ist das gästebuch???"></img>
     </div>
   );
 }

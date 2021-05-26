@@ -1,7 +1,5 @@
 .sideBar {
     padding: 10px;
-}
-
-.sideBar img {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
