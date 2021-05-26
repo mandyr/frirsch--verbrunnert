@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/frisch-verbrunnert/static/css/main.a509e700.chunk.css",
-    "main.js": "/frisch-verbrunnert/static/js/main.c26c9118.chunk.js",
-    "main.js.map": "/frisch-verbrunnert/static/js/main.c26c9118.chunk.js.map",
+    "main.css": "/frisch-verbrunnert/static/css/main.1ddaacbf.chunk.css",
+    "main.js": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js",
+    "main.js.map": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js.map",
     "runtime-main.js": "/frisch-verbrunnert/static/js/runtime-main.a3510636.js",
     "runtime-main.js.map": "/frisch-verbrunnert/static/js/runtime-main.a3510636.js.map",
     "static/css/2.6b2b7fe9.chunk.css": "/frisch-verbrunnert/static/css/2.6b2b7fe9.chunk.css",
@@ -10,17 +10,23 @@
     "static/js/2.4e7ca485.chunk.js.map": "/frisch-verbrunnert/static/js/2.4e7ca485.chunk.js.map",
     "index.html": "/frisch-verbrunnert/index.html",
     "static/css/2.6b2b7fe9.chunk.css.map": "/frisch-verbrunnert/static/css/2.6b2b7fe9.chunk.css.map",
-    "static/css/main.a509e700.chunk.css.map": "/frisch-verbrunnert/static/css/main.a509e700.chunk.css.map",
+    "static/css/main.1ddaacbf.chunk.css.map": "/frisch-verbrunnert/static/css/main.1ddaacbf.chunk.css.map",
     "static/js/2.4e7ca485.chunk.js.LICENSE.txt": "/frisch-verbrunnert/static/js/2.4e7ca485.chunk.js.LICENSE.txt",
+    "static/media/3Fragen.03f9ff89.png": "/frisch-verbrunnert/static/media/3Fragen.03f9ff89.png",
     "static/media/XP.css": "/frisch-verbrunnert/static/media/ms_sans_serif_bold.9fbe7124.woff",
+    "static/media/PoliceStripper.7d481051.png": "/frisch-verbrunnert/static/media/PoliceStripper.7d481051.png",
     "static/media/index.css": "/frisch-verbrunnert/static/media/comic-sans.f26417ad.woff",
-    "static/media/singles.3df50cf5.jpg": "/frisch-verbrunnert/static/media/singles.3df50cf5.jpg"
+    "static/media/feuerwerk.398abdd6.gif": "/frisch-verbrunnert/static/media/feuerwerk.398abdd6.gif",
+    "static/media/schweinkram.c6af3a0d.gif": "/frisch-verbrunnert/static/media/schweinkram.c6af3a0d.gif",
+    "static/media/singles.3df50cf5.jpg": "/frisch-verbrunnert/static/media/singles.3df50cf5.jpg",
+    "static/media/travolta.b0232c0e.gif": "/frisch-verbrunnert/static/media/travolta.b0232c0e.gif",
+    "static/media/welcome.f89bcea6.gif": "/frisch-verbrunnert/static/media/welcome.f89bcea6.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.a3510636.js",
     "static/css/2.6b2b7fe9.chunk.css",
     "static/js/2.4e7ca485.chunk.js",
-    "static/css/main.a509e700.chunk.css",
-    "static/js/main.c26c9118.chunk.js"
+    "static/css/main.1ddaacbf.chunk.css",
+    "static/js/main.ee2ebb1c.chunk.js"
   ]
 }
