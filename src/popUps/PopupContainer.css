@@ -11,3 +11,8 @@
     position: absolute;
     pointer-events: all;
 }
+
+.title-bar-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

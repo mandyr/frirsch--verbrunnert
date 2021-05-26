@@ -17,6 +17,14 @@ export function PopUpWindow(props: PopUpWindowProps) {
 
   let dragging: boolean = false;
 
+  function getWidth(): number {
+    return (window.screen.width / 1000) * props.width;
+  }
+
+  function getHeight(): number {
+    return (window.screen.width / 1000) * props.height;
+  }
+
   function startDrag(event: React.MouseEvent) {
     event.preventDefault();
     event.stopPropagation();
@@ -44,14 +52,21 @@ export function PopUpWindow(props: PopUpWindowProps) {
     dragging = false;
   }
 
+  const leftPosition = left
+    ? px(left)
+    : px((window.screen.width / 1000) * props.left);
+  const topPosition = top
+    ? px(top)
+    : px((window.screen.width / 1000) * props.top);
+
   return (
     <div
       className="popUp"
       style={{
-        top: top ? px(top) : px(props.top),
-        left: left ? px(left) : px(props.left),
-        width: px(props.width + 16),
-        height: px(props.height + 16),
+        top: topPosition,
+        left: leftPosition,
+        width: px(getWidth() + 16),
+        height: px(getHeight() + 16),
       }}
     >
       <div className="window">
@@ -69,8 +84,8 @@ export function PopUpWindow(props: PopUpWindowProps) {
             src={props.image}
             alt={props.id}
             style={{
-              width: px(props.width),
-              height: px(props.height),
+              width: px(getWidth()),
+              height: px(getHeight()),
             }}
           ></img>
         </div>
