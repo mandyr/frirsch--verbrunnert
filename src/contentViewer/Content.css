@@ -59,8 +59,7 @@ p.marquee {
 .home {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: max-content;
+    overflow: scroll;
     justify-content: center;
     align-items: center;
 }

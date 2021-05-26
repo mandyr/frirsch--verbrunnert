@@ -25,7 +25,8 @@ body {
   box-sizing: border-box;
   flex-wrap: wrap;
   background-image: url("./popUps/twinkle.gif");
-  background-repeat: repeat-x;
+  background-size: 130px;
+  background-repeat: repeat;
 }
 
 .mainContent {
