@@ -22,6 +22,36 @@
 }
 
 .contentViewer h1 {
+    font-size: 5vh;
     background-color: black;
     color: #f4fd35;
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    display: block;
+}
+
+p.marquee {
+    background-color: black;
+    color: #66c1a0;
+}
+
+.marquee span {
+    display: inline-block;
+    text-indent: 0;
+    overflow: hidden;
+    -webkit-transition: 7s;
+    transition: 7s;
+    -webkit-animation: marquee 7s linear infinite;
+    animation: marquee 7s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translate(100%, 0); -webkit-transform: translateX(100%); }
+    100% { transform: translate(-100%, 0); -webkit-transform: translateX(-100%); }
 }
