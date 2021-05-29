@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frisch-verbrunnert/static/css/main.e9be06fa.chunk.css",
-    "main.js": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js",
-    "main.js.map": "/frisch-verbrunnert/static/js/main.ee2ebb1c.chunk.js.map",
+    "main.js": "/frisch-verbrunnert/static/js/main.54799645.chunk.js",
+    "main.js.map": "/frisch-verbrunnert/static/js/main.54799645.chunk.js.map",
     "runtime-main.js": "/frisch-verbrunnert/static/js/runtime-main.a3510636.js",
     "runtime-main.js.map": "/frisch-verbrunnert/static/js/runtime-main.a3510636.js.map",
     "static/css/2.6b2b7fe9.chunk.css": "/frisch-verbrunnert/static/css/2.6b2b7fe9.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/XP.css": "/frisch-verbrunnert/static/media/ms_sans_serif_bold.9fbe7124.woff",
     "static/media/PoliceStripper.7d481051.png": "/frisch-verbrunnert/static/media/PoliceStripper.7d481051.png",
     "static/media/index.css": "/frisch-verbrunnert/static/media/comic-sans.f26417ad.woff",
+    "static/media/download-button.70c9d352.jpg": "/frisch-verbrunnert/static/media/download-button.70c9d352.jpg",
     "static/media/feuerwerk.398abdd6.gif": "/frisch-verbrunnert/static/media/feuerwerk.398abdd6.gif",
     "static/media/schweinkram.c6af3a0d.gif": "/frisch-verbrunnert/static/media/schweinkram.c6af3a0d.gif",
     "static/media/singles.3df50cf5.jpg": "/frisch-verbrunnert/static/media/singles.3df50cf5.jpg",
@@ -27,6 +28,6 @@
     "static/css/2.6b2b7fe9.chunk.css",
     "static/js/2.4e7ca485.chunk.js",
     "static/css/main.e9be06fa.chunk.css",
-    "static/js/main.ee2ebb1c.chunk.js"
+    "static/js/main.54799645.chunk.js"
   ]
 }
